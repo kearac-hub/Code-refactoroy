@@ -1,26 +1,118 @@
--Line 35 was redunent (the list is already an unordered list)
+/* removed header */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
 
-.header div ul {
+/* removed header h1 */
+.seo {
+    color: #d9dcd6;
+}
+
+/* removed the header div and changed to nav */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* removed extra header div */
+ul {
     list-style-type: none;
 }
 
--.benefit-lead -cost -brand to .benefit and put all the edits under one class
+ .benefits p {
+     /* Changed this to target paragraphs */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
--benefit img could be condensed into 1 class
+/* .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
--changed the benefita
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */ 
 
-line 11 div changed to section
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    /* Added color */
+    color:#ffffff
+}
 
-line 13 div changed to nav
 
-like 28 div to main
+/* Duplicate Code.
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-line 29/36/43 div to article
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+} */
 
-line 51 div changed to section
+/* Removed the -lead. */
 
-line 52/59/66 div to aside
+/* This is Duplicate Code.
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
 
-line 74 div changed to footer
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
 
+/* This is Duplicate Code.
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+} */
+
+/* Duplicate Code.
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+} */
+
+/* Duplicate Code.
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} */
+
+/* Turned the foot H2 into an H3*/
+footer h2 {
+    font-size: 20px;
+}
