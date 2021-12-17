@@ -116,3 +116,4 @@ ul {
 footer h2 {
     font-size: 20px;
 }
+Renamed multiple divs to: header,main,section,aside,footer
